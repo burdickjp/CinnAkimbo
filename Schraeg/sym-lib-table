@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name eurocad)(type Legacy)(uri "/Users/barnabywalters/Documents/KiCad Parts/eurocad.lib")(options "")(descr ""))
-  (lib (name P170)(type Legacy)(uri "/Users/barnabywalters/Documents/KiCad Parts/P170.lib")(options "")(descr ""))
-  (lib (name v2164)(type Legacy)(uri "/Users/barnabywalters/Documents/KiCad Parts/v2164.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "eurocad")(type "Legacy")(uri "/Users/barnabywalters/Documents/KiCad Parts/eurocad.lib")(options "")(descr ""))
+  (lib (name "P170")(type "Legacy")(uri "/Users/barnabywalters/Documents/KiCad Parts/P170.lib")(options "")(descr ""))
+  (lib (name "v2164")(type "Legacy")(uri "/Users/barnabywalters/Documents/KiCad Parts/v2164.lib")(options "")(descr ""))
+  (lib (name "Schraeg-rescue")(type "KiCad")(uri "${KIPRJMOD}/Schraeg-rescue.kicad_sym")(options "")(descr ""))
 )

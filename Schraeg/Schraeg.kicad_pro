@@ -336,16 +336,20 @@
       "Filter Core"
     ],
     [
+      "fd9e0042-3e5c-45dc-bfe3-dd3011a34821",
+      "Invert Switch A"
+    ],
+    [
+      "5f66e1d5-9bed-43b2-93db-96b8aabdb30e",
+      "MOD IN A"
+    ],
+    [
       "77e223dd-0fbc-47b2-9b63-c429f2590121",
       "Right Channel"
     ],
     [
       "b32ad067-1360-4bf7-8a09-7ae05bbd3127",
       "Filter Core"
-    ],
-    [
-      "fd9e0042-3e5c-45dc-bfe3-dd3011a34821",
-      "Invert Switch A"
     ],
     [
       "a37dc763-f720-4ac5-a509-130518c46b23",
@@ -358,10 +362,6 @@
     [
       "1985112b-d81a-4c59-ad41-edc0942c0973",
       "Invert Switch D"
-    ],
-    [
-      "5f66e1d5-9bed-43b2-93db-96b8aabdb30e",
-      "MOD IN A"
     ],
     [
       "843512f8-0ffd-4dd1-8181-ca5b142ef288",

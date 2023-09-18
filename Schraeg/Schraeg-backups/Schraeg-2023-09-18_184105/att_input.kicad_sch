@@ -470,7 +470,7 @@
     )
   )
 
-  (hierarchical_label "MOD_OUT" (shape output) (at 182.88 93.98 0) (fields_autoplaced)
+  (hierarchical_label "ATT_OUT" (shape output) (at 182.88 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 648b458f-16d0-4ea8-aa01-ca5a72e7e01f)
   )
@@ -490,7 +490,7 @@
     (property "Datasheet" "" (at 137.16 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70d007f2-053d-48e3-9b87-80211c03cd06))
+    (pin "1" (uuid 64fa3b78-04f0-4c62-a267-e9ad42e81927))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -527,8 +527,8 @@
     (property "Datasheet" "~" (at 163.83 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8fcf36f-4c9e-4b9f-b9f8-b2cac09a8e9a))
-    (pin "2" (uuid ce8ba06b-724f-46cc-be40-d74de9e6f056))
+    (pin "1" (uuid ca86decb-b217-4ec6-8eb4-64378079e4f9))
+    (pin "2" (uuid ce34d178-1612-4390-a5cb-911fcc3a9d54))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -565,8 +565,8 @@
     (property "Datasheet" "~" (at 140.97 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cf7a024-be48-4777-8ba9-84a0c4708177))
-    (pin "2" (uuid 8a6cdc07-d7c4-4563-9a12-f8d94d146f3f))
+    (pin "1" (uuid 7c4a788d-1c66-479c-a15a-214e26fea1c2))
+    (pin "2" (uuid 88f481e0-d40f-4f08-a1df-1debeadcea1d))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -603,9 +603,9 @@
     (property "Datasheet" "" (at 113.03 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid bb28ffa4-bb4c-460f-b0f0-87112ce9c034))
-    (pin "2" (uuid d7ccafd1-503f-411d-9de6-16e8bb03137c))
-    (pin "3" (uuid 52473b6a-ec03-4804-adf1-ed40f661845b))
+    (pin "1" (uuid fa041ad7-9512-4ff2-b387-02076acf42ef))
+    (pin "2" (uuid bb692789-2fc4-4d97-b2c1-a6ce951e4432))
+    (pin "3" (uuid 192325ff-5b94-40c1-a717-8b7da5f143d6))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -615,7 +615,7 @@
           (reference "FM_IN1") (unit 1)
         )
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b/5f66e1d5-9bed-43b2-93db-96b8aabdb30e"
-          (reference "MOD_IN") (unit 1)
+          (reference "FM_IN1") (unit 1)
         )
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b/843512f8-0ffd-4dd1-8181-ca5b142ef288"
           (reference "FM_IN2") (unit 1)
@@ -642,9 +642,9 @@
     (property "Datasheet" "~" (at 153.67 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50b113ba-9e3f-4e86-bc4a-a29703dc9bcc))
-    (pin "2" (uuid 4248223f-b24d-4a81-ac70-d8f80e47502a))
-    (pin "3" (uuid 386847d7-8e3e-4730-9d64-10763abbd616))
+    (pin "1" (uuid 22610f7b-910c-4137-81a8-5eb7cfbcbf48))
+    (pin "2" (uuid ca75519f-ce67-4d9b-a35f-dd925a4e1193))
+    (pin "3" (uuid abe752fb-f7f2-42dd-b80f-44d8415b403d))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -681,7 +681,7 @@
     (property "Datasheet" "" (at 127 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33b69662-a64d-456f-8ac8-e1de38f61519))
+    (pin "1" (uuid 26db23b1-e634-41d0-8f64-16c86e39ffeb))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -718,20 +718,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 148.59 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33c2f2fa-6240-4ee6-a9f8-2c27101ee2d9))
-    (pin "2" (uuid d056cda1-3fb7-4e1d-8b2f-283d1a283281))
-    (pin "3" (uuid 8a958690-2e63-4d18-a4e4-8553b888d91a))
-    (pin "5" (uuid d4ba74b0-be09-4a34-a849-5a116d713fba))
-    (pin "6" (uuid addb91c5-962f-4192-8f7d-3263fece3f91))
-    (pin "7" (uuid 0a5b8f12-4a25-46d7-a8eb-86e17c2d1f44))
-    (pin "10" (uuid 53a55071-bede-4967-bc6b-6c5f3b86f4d5))
-    (pin "8" (uuid a9ac18b9-1bb8-43bf-90d9-8affe25204ca))
-    (pin "9" (uuid a3b43031-1e14-421c-bc18-dbd4f36c2ad1))
-    (pin "12" (uuid 06ff9ff7-e1d3-497b-b6f5-c82eaae99d6b))
-    (pin "13" (uuid a88020bf-a517-4540-8361-611bce9062d2))
-    (pin "14" (uuid f3de224d-d7f0-461d-85b1-6ccfb2e51ce9))
-    (pin "11" (uuid d76338b7-e4a1-44a7-8c21-17a646c3ac03))
-    (pin "4" (uuid 9ffa36b7-83b4-4bd7-9299-17aac8d3e2d9))
+    (pin "1" (uuid 860e450c-a8a5-47bc-adcf-a3de1f8784ad))
+    (pin "2" (uuid bb1fb834-6443-4cb6-a08f-03ee6e35bf6d))
+    (pin "3" (uuid ddd9a648-4056-4d3f-8b34-999cb4bc8e51))
+    (pin "5" (uuid 063bb221-32f3-4fdc-bb5b-1fd3459922b1))
+    (pin "6" (uuid 290001da-a438-4030-8e23-08db996e2bef))
+    (pin "7" (uuid 5dd43bf8-dc30-428f-ad96-7890de3a6bfc))
+    (pin "10" (uuid febfe1d3-3815-42db-908b-5d7b04afca5b))
+    (pin "8" (uuid 91ef7936-ba1a-4539-9735-d6f0bedd9251))
+    (pin "9" (uuid 70add5e8-d035-4a33-b573-ab332c45f702))
+    (pin "12" (uuid 6a608757-3a6a-4b93-8592-452993409697))
+    (pin "13" (uuid c27591e5-7d4e-4bf0-839e-25b23cdc5f11))
+    (pin "14" (uuid 06b399df-2908-420e-9723-2e06afd8b77c))
+    (pin "11" (uuid 2f70bf94-2fc2-4c82-808c-5dbde6aff0d2))
+    (pin "4" (uuid da1689a8-437f-4f6c-a0af-d9938c424c70))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -768,8 +768,8 @@
     (property "Datasheet" "~" (at 148.59 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54ffea2c-4bee-47b0-ac1c-fb642b53056e))
-    (pin "2" (uuid 7ee9b409-0ff8-49bd-a7a6-57ec44c320c5))
+    (pin "1" (uuid a5653f2f-6e7d-4c8d-afe8-6dc44fd146a4))
+    (pin "2" (uuid 26ac5e77-5d6f-45e9-9bf7-2dc16c8d2566))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -806,8 +806,8 @@
     (property "Datasheet" "~" (at 176.53 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60131b96-0f3e-44c9-9d17-92174b99bbeb))
-    (pin "2" (uuid 32f92e96-5b06-43e9-b447-4fa2c5b9168c))
+    (pin "1" (uuid 29a088f9-6c73-4392-ad96-398bb87b12a8))
+    (pin "2" (uuid 11fc461c-94be-424e-8c5f-9e7a33fbd680))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"

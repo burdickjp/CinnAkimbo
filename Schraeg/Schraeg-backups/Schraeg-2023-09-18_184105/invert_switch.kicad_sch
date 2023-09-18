@@ -367,7 +367,7 @@
   (symbol (lib_id "power:GND") (at 107.95 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a52b53b-a41d-4cad-a300-4a7d95272569)
-    (property "Reference" "#PWR?" (at 107.95 104.14 0)
+    (property "Reference" "#PWR026" (at 107.95 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.077 102.1842 0)
@@ -379,7 +379,7 @@
     (property "Datasheet" "" (at 107.95 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26b2bff6-168c-4bf3-a5ea-ee4d13700d0a))
+    (pin "1" (uuid b76c0ef6-66fc-49ee-ac33-ab6906fe14f0))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -410,7 +410,7 @@
   (symbol (lib_id "Device:R") (at 104.14 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 710b420e-bddb-4c48-a25b-7057d757182d)
-    (property "Reference" "R?" (at 104.14 93.98 90)
+    (property "Reference" "R37" (at 104.14 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 104.14 96.52 90)
@@ -422,8 +422,8 @@
     (property "Datasheet" "~" (at 104.14 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44e8b64d-9d96-43df-ae26-cd445606d492))
-    (pin "2" (uuid f8a1ec70-55c6-442d-a027-89acbbc0d39b))
+    (pin "1" (uuid 396f00fe-8a20-4579-a0a8-e478518ab06e))
+    (pin "2" (uuid bffad510-c8d6-4a36-ac61-54302713d3bb))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -451,10 +451,10 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 118.11 93.98 0) (mirror x) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 118.11 93.98 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cd68d46-aca2-4034-be90-197f6a9dd1f2)
-    (property "Reference" "U?" (at 119.38 88.9 0)
+    (property "Reference" "U4" (at 119.38 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 120.65 99.06 0)
@@ -466,20 +466,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 119.38 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 834bc4b0-8949-4eed-b450-ee229c4ece30))
-    (pin "2" (uuid 1f0d6fd0-b3b7-4224-8ae2-d8c1058c3739))
-    (pin "3" (uuid a420e38b-7326-4681-8521-aee2e2b27f45))
-    (pin "5" (uuid 9c989ff4-bd35-49b1-b747-ea30a42badd1))
-    (pin "6" (uuid ab290c3f-b1bc-4e83-bbca-c1dfda9eb3f3))
-    (pin "7" (uuid 75d8f140-edf1-4bb2-881e-2e4154983a9d))
-    (pin "10" (uuid d91c7d2a-f059-4617-8b26-6d436c940938))
-    (pin "8" (uuid 28c9ed91-5f75-42e9-b03f-ebaf5c5ae496))
-    (pin "9" (uuid 45e28560-af11-4bda-8a07-40ba41a7b34e))
-    (pin "12" (uuid 6b02c313-3065-41b1-aeb9-5224e5a07435))
-    (pin "13" (uuid e8d79f62-81fd-4370-be37-5da3532e3253))
-    (pin "14" (uuid ac143c51-1410-4f3f-9916-6d71d6594e6a))
-    (pin "11" (uuid 43c5da3c-d01b-4874-bf51-76c012e8468e))
-    (pin "4" (uuid b6f314cd-8abb-429d-8ff4-6281f27b08be))
+    (pin "1" (uuid 95b2268b-a5bc-43cc-9ca1-655af1f1082e))
+    (pin "2" (uuid 14ec6519-27b6-45f2-b451-d2e396cf4b1d))
+    (pin "3" (uuid c47476c1-e6d9-455e-86c8-6dc4f683d510))
+    (pin "5" (uuid 13506db3-0069-49a2-a3e0-befdfe712c86))
+    (pin "6" (uuid 466fb46e-61db-4036-937c-d37db4e2d3eb))
+    (pin "7" (uuid 7b17899f-64a5-4643-ab78-92ba67c32ba0))
+    (pin "10" (uuid 9ce9cb8c-ef49-413f-be75-72b7ccf71e43))
+    (pin "8" (uuid a4e9b6ec-7176-4000-9487-30fe0c9a4e3f))
+    (pin "9" (uuid 53b67d83-261d-43be-8fd6-33b836898cad))
+    (pin "12" (uuid 53dec2c0-b7f9-4a69-9b2a-8e4f3bee9a94))
+    (pin "13" (uuid 53a93dbb-6d10-4d8b-8968-04e164b7b134))
+    (pin "14" (uuid 8e7df8a3-feb1-4325-aab2-58e89301e865))
+    (pin "11" (uuid d79e8eb3-6ecd-4f5f-964e-37edc000e55b))
+    (pin "4" (uuid 2b01d8da-1146-4656-8f1e-8ccb599cc8b0))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -522,9 +522,9 @@
     (property "Datasheet" "" (at 135.89 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15001cac-523a-4667-8dfb-599959251d9b))
-    (pin "2" (uuid a71088ad-64cd-485d-ab6d-e2e6d76cbfa3))
-    (pin "3" (uuid ddd47c45-28a7-4d01-9e7c-450cdfba03b0))
+    (pin "1" (uuid 83debabf-a216-46aa-92eb-85a95d615c1d))
+    (pin "2" (uuid b2a4cac2-e356-4d88-b3ac-17da4957d48e))
+    (pin "3" (uuid 8dc9b953-8652-4163-9df7-1d8e1fc87a71))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
@@ -555,7 +555,7 @@
   (symbol (lib_id "Device:R") (at 119.38 83.82 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d94a430b-886e-4d5a-b817-0c5492c18656)
-    (property "Reference" "R?" (at 119.38 81.28 90)
+    (property "Reference" "R42" (at 119.38 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 119.38 78.74 90)
@@ -567,8 +567,8 @@
     (property "Datasheet" "~" (at 119.38 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dbd79fc4-3903-4512-9cb9-254743fdc55e))
-    (pin "2" (uuid 84d8bbcc-1e78-41f5-a83a-ab749a030a93))
+    (pin "1" (uuid e7018674-1794-442d-907e-398d8f545bc3))
+    (pin "2" (uuid b57ca3cb-8f0d-4594-a3ff-9e51b07db29f))
     (instances
       (project "Schraeg"
         (path "/63ba224f-cd90-44e3-9d07-b2fc4e2de32b"
